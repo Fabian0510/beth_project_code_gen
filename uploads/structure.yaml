@@ -1,0 +1,17 @@
+csvs:
+  - name: "file1.csv"
+    rows: 10
+    columns:
+      - name: "ID"
+        type: "int"
+      - name: "Name"
+        type: "string"
+      - name: "Date"
+        type: "date"
+  - name: "file2.csv"
+    rows: 5
+    columns:
+      - name: "Product"
+        type: "string"
+      - name: "Price"
+        type: "float"
